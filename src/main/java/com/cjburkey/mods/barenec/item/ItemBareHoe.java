@@ -3,9 +3,9 @@ package com.cjburkey.mods.barenec.item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemHoe;
 
-public class ItemEmeraldHoe extends ItemHoe {
+public class ItemBareHoe extends ItemHoe {
 	
-	public ItemEmeraldHoe(ToolMaterial mat) {
+	public ItemBareHoe(ToolMaterial mat) {
 		super(mat);
 	}
 	

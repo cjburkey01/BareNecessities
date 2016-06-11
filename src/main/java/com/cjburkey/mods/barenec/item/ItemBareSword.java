@@ -2,9 +2,9 @@ package com.cjburkey.mods.barenec.item;
 
 import net.minecraft.item.ItemSword;
 
-public class ItemEmeraldSword extends ItemSword {
+public class ItemBareSword extends ItemSword {
 	
-	public ItemEmeraldSword(ToolMaterial mat) {
+	public ItemBareSword(ToolMaterial mat) {
 		super(mat);
 	}
 	

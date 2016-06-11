@@ -4,5 +4,16 @@ item.itemEmeraldAxe.name=Emerald Axe
 item.itemEmeraldShovel.name=Emerald Shovel
 item.itemEmeraldHoe.name=Emerald Hoe
 
+item.itemBrittleDiamondSword.name=Ultra-Brittle Diamond Sword
+item.itemBrittleDiamondPick.name=Ultra-Brittle Diamond Pickaxe
+item.itemBrittleDiamondAxe.name=Ultra-Brittle Diamond Axe
+item.itemBrittleDiamondShovel.name=Ultra-Brittle Diamond Shovel
+item.itemBrittleDiamondHoe.name=Ultra-Brittle Diamond Hoe
+
+item.itemGoldDiamond.name=Diamond-Gold Alloy
+item.itemBrittleDiamond.name=Brittle Diamond
+
+
+
 itemGroup.tabBarenecItems=Bare Necessities Items
 itemGroup.tabBarenecBlocks=Bare Necessities Blocks

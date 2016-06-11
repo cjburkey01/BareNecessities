@@ -3,9 +3,9 @@ package com.cjburkey.mods.barenec.item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSpade;
 
-public class ItemEmeraldShovel extends ItemSpade {
+public class ItemBareShovel extends ItemSpade {
 	
-	public ItemEmeraldShovel(ToolMaterial mat) {
+	public ItemBareShovel(ToolMaterial mat) {
 		super(mat);
 	}
 	
