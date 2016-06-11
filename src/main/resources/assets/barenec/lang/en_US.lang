@@ -1,0 +1,8 @@
+item.itemEmeraldSword.name=Emerald Sword
+item.itemEmeraldPick.name=Emerald Pickaxe
+item.itemEmeraldAxe.name=Emerald Axe
+item.itemEmeraldShovel.name=Emerald Shovel
+item.itemEmeraldHoe.name=Emerald Hoe
+
+itemGroup.tabBarenecItems=Bare Necessities Items
+itemGroup.tabBarenecBlocks=Bare Necessities Blocks

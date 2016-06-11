@@ -1,0 +1,16 @@
+[
+{
+  "modid": "barenec",
+  "name": "Bare Necessities",
+  "description": "Adds some features that Minecraft really requires.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CJ Burkey"],
+  "credits": "Gus, for coming up with most of these ideas.",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
