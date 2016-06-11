@@ -15,23 +15,23 @@ public class _Recipes {
 	
 	private static final void registerCrafting() {
 		addRecipe(new ItemStack(_Items.itemEmeraldSword, 1), new Object[] {
-			"x", "x", "y", Character.valueOf('x'), Items.EMERALD, Character.valueOf('y'), Items.STICK,
+			"x", "x", "y", Character.valueOf('x'), "gemEmerald", Character.valueOf('y'), "stickWood",
 		});
 		
 		addRecipe(new ItemStack(_Items.itemEmeraldPick, 1), new Object[] {
-			"xxx", " y ", " y ", Character.valueOf('x'), Items.EMERALD, Character.valueOf('y'), Items.STICK,
+			"xxx", " y ", " y ", Character.valueOf('x'), "gemEmerald", Character.valueOf('y'), "stickWood",
 		});
 		
 		addRecipe(new ItemStack(_Items.itemEmeraldAxe, 1), new Object[] {
-			"xx", "xy", " y", Character.valueOf('x'), Items.EMERALD, Character.valueOf('y'), Items.STICK,
+			"xx", "xy", " y", Character.valueOf('x'), "gemEmerald", Character.valueOf('y'), "stickWood",
 		});
 		
 		addRecipe(new ItemStack(_Items.itemEmeraldShovel, 1), new Object[] {
-			"x", "y", "y", Character.valueOf('x'), Items.EMERALD, Character.valueOf('y'), Items.STICK,
+			"x", "y", "y", Character.valueOf('x'), "gemEmerald", Character.valueOf('y'), "stickWood",
 		});
 		
 		addRecipe(new ItemStack(_Items.itemEmeraldHoe, 1), new Object[] {
-			"xx", " y", " y", Character.valueOf('x'), Items.EMERALD, Character.valueOf('y'), Items.STICK,
+			"xx", " y", " y", Character.valueOf('x'), "gemEmerald", Character.valueOf('y'), "stickWood",
 		});
 	}
 	
