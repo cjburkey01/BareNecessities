@@ -18,7 +18,7 @@ public class _Recipes {
 	}
 	
 	private static final void registerCrafting() {
-		addRecipesForTools(_Items.itemEmeraldSword, _Items.itemEmeraldPick, _Items.itemEmeraldAxe, _Items.itemEmeraldShovel, _Items.itemEmeraldHoe, "gemEmerald", "stickWood");
+		addRecipesForTools(_Items.itemEmeraldSword, _Items.itemEmeraldPick, _Items.itemEmeraldAxe, _Items.itemEmeraldShovel, _Items.itemEmeraldHoe, "blockEmerald", "stickWood");
 		addRecipesForTools(_Items.itemBrittleDiamondSword, _Items.itemBrittleDiamondPick, _Items.itemBrittleDiamondAxe, _Items.itemBrittleDiamondShovel, _Items.itemBrittleDiamondHoe, "gemBrittleDiamond", "stickWood");
 		
 		addRecipe(new ItemStack(_Blocks.blockQuarry, 1), new Object[] {
@@ -26,7 +26,7 @@ public class _Recipes {
 			'x', "blockIron",
 			'y', "gemLapis",
 			'z', "dyeYellow",
-			'a', Items.IRON_PICKAXE,
+			'a', _Items.itemBrittleDiamondPick,
 			'b', "dyeRed",
 			'c', Blocks.FURNACE,
 		});
