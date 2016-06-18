@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "barenec:blocks/blockQuarry_top",
+        "front": "barenec:blocks/blockQuarry_side",
+        "side": "barenec:blocks/blockQuarry_side"
+    }
+}

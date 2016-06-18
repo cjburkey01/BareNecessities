@@ -1,6 +1,8 @@
 package com.cjburkey.mods.barenec.recipe;
 
+import com.cjburkey.mods.barenec.block._Blocks;
 import com.cjburkey.mods.barenec.item._Items;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -19,29 +21,39 @@ public class _Recipes {
 		addRecipesForTools(_Items.itemEmeraldSword, _Items.itemEmeraldPick, _Items.itemEmeraldAxe, _Items.itemEmeraldShovel, _Items.itemEmeraldHoe, "gemEmerald", "stickWood");
 		addRecipesForTools(_Items.itemBrittleDiamondSword, _Items.itemBrittleDiamondPick, _Items.itemBrittleDiamondAxe, _Items.itemBrittleDiamondShovel, _Items.itemBrittleDiamondHoe, "gemBrittleDiamond", "stickWood");
 		
+		addRecipe(new ItemStack(_Blocks.blockQuarry, 1), new Object[] {
+			"xyx", "zab", "xcx",
+			'x', "blockIron",
+			'y', "gemLapis",
+			'z', "dyeYellow",
+			'a', Items.IRON_PICKAXE,
+			'b', "dyeRed",
+			'c', Blocks.FURNACE,
+		});
+		
 		addShapeless(new ItemStack(_Items.itemGoldDiamond, 1),
 				Items.GOLD_INGOT, Items.GOLD_INGOT, Items.DIAMOND, Items.DIAMOND, Items.DIAMOND, Items.IRON_INGOT);
 	}
 	
 	private static final void addRecipesForTools(Item sword, Item pick, Item axe, Item spade, Item hoe, String material, String stick) {
 		addRecipe(new ItemStack(sword, 1), new Object[] {
-			"x", "x", "y", Character.valueOf('x'), material, Character.valueOf('y'), stick,
+			"x", "x", "y", 'x', material, Character.valueOf('y'), stick,
 		});
 		
 		addRecipe(new ItemStack(pick, 1), new Object[] {
-			"xxx", " y ", " y ", Character.valueOf('x'), material, Character.valueOf('y'), stick,
+			"xxx", " y ", " y ", 'x', material, 'y', stick,
 		});
 		
 		addRecipe(new ItemStack(axe, 1), new Object[] {
-			"xx", "xy", " y", Character.valueOf('x'), material, Character.valueOf('y'), stick,
+			"xx", "xy", " y", 'x', material, 'y', stick,
 		});
 		
 		addRecipe(new ItemStack(spade, 1), new Object[] {
-			"x", "y", "y", Character.valueOf('x'), material, Character.valueOf('y'), stick,
+			"x", "y", "y", 'x', material, 'y', stick,
 		});
 		
 		addRecipe(new ItemStack(hoe, 1), new Object[] {
-			"xx", " y", " y", Character.valueOf('x'), material, Character.valueOf('y'), stick,
+			"xx", " y", " y", 'x', material, 'y', stick,
 		});
 	}
 	

@@ -56,7 +56,7 @@ public class _Items {
 		itemBrittleDiamond = addOreDict(registerItem("itemBrittleDiamond", new Item()), "gemBrittleDiamond");
 	}
 	
-	private static final void registerRender(Item i) {
+	public static final void registerRender(Item i) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(i, 0,
 				new ModelResourceLocation(ModInfo.id + ":" + i.getRegistryName().getResourcePath(), "inventory"));
 	}

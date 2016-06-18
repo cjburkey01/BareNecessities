@@ -1,5 +1,6 @@
 package com.cjburkey.mods.barenec.proxy;
 
+import com.cjburkey.mods.barenec.block._Blocks;
 import com.cjburkey.mods.barenec.item._Items;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -12,6 +13,7 @@ public class ClientProxy extends CommonProxy {
 		super.init(e);
 		
 		_Items.registerRenders();
+		_Blocks.registerRenders();
 	}
 	public void postinit(FMLPostInitializationEvent e) { super.postinit(e); }
 	

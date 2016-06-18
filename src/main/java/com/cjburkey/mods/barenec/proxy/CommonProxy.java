@@ -1,5 +1,6 @@
 package com.cjburkey.mods.barenec.proxy;
 
+import com.cjburkey.mods.barenec.block._Blocks;
 import com.cjburkey.mods.barenec.item._Items;
 import com.cjburkey.mods.barenec.mats._ToolMats;
 import com.cjburkey.mods.barenec.recipe._Recipes;
@@ -14,6 +15,7 @@ public class CommonProxy {
 		_Tabs.preinit();
 		_ToolMats.preinit();
 		_Items.preinit();
+		_Blocks.preinit();
 	}
 	public void init(FMLInitializationEvent e) {
 		_Recipes.init();

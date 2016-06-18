@@ -13,7 +13,7 @@ item.itemBrittleDiamondHoe.name=Ultra-Brittle Diamond Hoe
 item.itemGoldDiamond.name=Diamond-Gold Alloy
 item.itemBrittleDiamond.name=Brittle Diamond
 
-
+tile.blockQuarry.name=Quarry
 
 itemGroup.tabBarenecItems=Bare Necessities Items
 itemGroup.tabBarenecBlocks=Bare Necessities Blocks
